@@ -1,7 +1,7 @@
 #ES9028Q2M DAC controller
 
 ### 1. Purpose
-The ES9028Q2M DAC datasheet is NDA protected, this prevent the designers from disclosing the internal register definitions, making the development of an open source driver impossible. To work around this limitation, people use a micro-controller and publish open source driver with custom register definitions for the MCU. The MCU is used to translate the custom register definition to the ES9028Q2M register definition. This way, the NDA protected information is hide in the MCU firmware. In this work, an ATMAL Xmega XMEGA 64A4U MCU is used.
+The ES9028Q2M DAC datasheet is NDA protected, this prevent the designers from disclosing the internal register definitions, making the development of an open source driver impossible. To work around this limitation, people use a micro-controller and publish open source driver with custom register definitions for the MCU. The MCU is used to translate the custom register definition to the ES9028Q2M register definition. This way, the NDA protected information is hide in the MCU firmware. In this work, an ATMAL XMEGA 64A4U MCU is used.
 
 ### 2. Firmware architecture
 The firmware is developed based on the ATMAL TWI (Two Wire Interface) example. 
