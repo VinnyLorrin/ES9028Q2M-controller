@@ -1,0 +1,21 @@
+"--cpu=xm16a4" 
+
+"--enhanced_core" 
+
+"-p" 
+
+"Z:\Programs\IAR Systems\Embedded Workbench 8.0\avr\Config\ioxm16a4.ddf" 
+
+"--eeprom_size" 
+
+"1024" 
+
+"--jtagice_clock=100000" 
+
+"--drv_communication=USB" 
+
+"--drv_use_PDI" 
+
+
+
+

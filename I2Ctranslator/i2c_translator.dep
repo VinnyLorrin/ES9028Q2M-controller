@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2534263723</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$PROJ_DIR$\i2c_translator.c</file>
+            <file>$PROJ_DIR$\twi_master_driver.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\i2c_translator.HEX</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\common.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$PROJ_DIR$\avr_compiler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\twi_master_driver.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\pgmspace.h</file>
+            <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+            <file>$PROJ_DIR$\twi_slave_driver.c</file>
+            <file>$PROJ_DIR$\twi_slave_driver.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\twi_slave_driver.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\twi_slave_driver.r90</file>
+            <file>$PROJ_DIR$\Debug\Exe\i2c_translator.a90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_translator.r90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdarg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\twi_master_driver.r90</file>
+            <file>$TOOLKIT_DIR$\inc\Atmel\iomacro_xmega.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioxm16a4.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+            <file>$TOOLKIT_DIR$\inc\Atmel\ATxmega16A4.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-xmega-sf-n.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_translator.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+            <file>$PROJ_DIR$\twi_master_driver.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 23 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\i2c_translator.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 36 21 11 18 10 19 14 31 30 29 1 37 24 7 12 5 33 0 34 32 28 26 6 8 17 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\twi_master_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31 30 19 16 29 26 34 8 21 11 18 10 36 6 24 7 12 5 33 0 32 28 1 37 17 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\twi_slave_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 8 16 29 31 30 26 34 21 11 18 10 36 6 24 7 12 5 33 0 32 28 1 14 17 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$PROJ_DIR$\i2c_translator.c</file>
+            <file>$PROJ_DIR$\twi_master_driver.c</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\common.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$PROJ_DIR$\avr_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\pgmspace.h</file>
+            <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+            <file>$PROJ_DIR$\twi_slave_driver.c</file>
+            <file>$PROJ_DIR$\twi_slave_driver.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Release\Obj\i2c_translator.r90</file>
+            <file>$PROJ_DIR$\Release\Exe\i2c_translator.HEX</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Release\Obj\twi_master_driver.r90</file>
+            <file>$PROJ_DIR$\Release\Obj\twi_slave_driver.r90</file>
+            <file>$PROJ_DIR$\Release\Obj\i2c_translator.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\Atmel\iomacro_xmega.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioxm16a4.h</file>
+            <file>$PROJ_DIR$\Release\Obj\twi_slave_driver.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+            <file>$TOOLKIT_DIR$\inc\Atmel\ATxmega16A4.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-xmega-sf-n.h</file>
+            <file>$PROJ_DIR$\Release\Obj\twi_slave_driver.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\twi_master_driver.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+            <file>$PROJ_DIR$\twi_master_driver.h</file>
+            <file>$TOOLKIT_DIR$\src\template\cfgxm16a4.xcl</file>
+            <file>$PROJ_DIR$\Release\List\i2c_translator.map</file>
+            <file>$TOOLKIT_DIR$\src\template\cfgxmega3soimntf.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\twi_master_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\i2c_translator.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\i2c_translator.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-xmega-sf-n.r90</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 18 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\i2c_translator.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 7 24 19 14 16 32 0 29 8 20 6 35 10 4 30 27 36 31 26 9 1 15 13 25 37 5 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14 19 29 4 24 32 12 6 10 0 35 31 26 1 13 7 37 20 30 9 16 8 27 36 25 15 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\twi_master_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 37 7 24 19 14 16 32 0 29 8 20 6 35 10 4 30 27 36 31 26 9 1 15 13 25 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 29 19 14 27 1 7 20 9 16 8 36 5 24 6 10 4 32 0 35 31 26 25 37 15 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\twi_slave_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 12 7 24 19 14 16 32 0 29 8 20 6 35 10 4 30 27 36 31 26 9 1 15 13 25 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20 16 8 9 14 36 15 19 5 30 29 27 7 1 24 6 10 4 32 0 35 31 26 12 25 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\i2c_translator.HEX</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 38 40 17 21 22 44</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>
