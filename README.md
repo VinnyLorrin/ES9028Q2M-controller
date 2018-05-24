@@ -20,11 +20,14 @@ The firmware is developed with IAR embedded IDE. The final release binary is kep
 
 ### 5. Related resouce
 1.	ATMAL example:
-https://github.com/Synapseware/xmega-intro
-In this work, interrupt (PMIC) and TWI are used.
+
+  https://github.com/Synapseware/xmega-intro
+  In this work, interrupt (PMIC) and TWI are used.
 
 2.	MCU PCB design:
-TBA
+
+  https://github.com/VinnyLorrin/ES9028-controller-PCB
 
 3.	MCU Linux ALSA driver:
-TBA
+
+  https://github.com/VinnyLorrin/ES9028-controller-Linux-Driver
