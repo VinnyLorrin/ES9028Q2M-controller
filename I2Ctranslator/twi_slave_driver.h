@@ -58,6 +58,7 @@
  *****************************************************************************/
 #ifndef TWI_DRIVER_H
 #define TWI_DRIVER_H
+#define DAC_I2C_ADDR	0X48
 
 #include "avr_compiler.h"
 #include "common.h"
