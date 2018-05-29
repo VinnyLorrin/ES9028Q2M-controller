@@ -260,7 +260,7 @@ void TWI_SlaveReadHandler(TWI_Slave_t *twi)
 			//Translate to the real DAC register number
 			dst_reg = TWI_SlaveDecodeRegAddr(encrypted_reg);
 			//DAC I2C address
-			dst_addr = 0x48;
+			dst_addr = DAC_I2C_ADDR;
 			//Only process the response is the register number is
 			//legitimate
 			if(dst_reg != 255) {
