@@ -43,11 +43,10 @@
 /*! Defining number of bytes in buffer. */
 #define NUM_BYTES        2
 
-/*! CPU speed 30MHz, I2C master speed 100kHz and Baudrate Register Settings */
-#define CPU_SPEED       30000000
+/*! CPU speed 2MHz, I2C master speed 100kHz and Baudrate Register Settings */
+#define CPU_SPEED       2000000
 #define BAUDRATE	100000
 #define TWI_BAUDSETTING TWI_BAUD(CPU_SPEED, BAUDRATE)
-
 
 /* Global variables */
 TWI_Master_t twiMaster;    /*!< TWI master module. */
@@ -99,7 +98,7 @@ bool TWIC_SlaveProcessData(void)
 		{
 		}
 		TWI_MasterWriteRead(&twiMaster,
-		                    0x48,
+		                    dst_addr,
 		                    &sendBuffer[0],
 		                    2,
 		                    0);
